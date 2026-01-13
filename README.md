@@ -269,14 +269,5 @@ No environment variables are required for the basic setup. For production, consi
 - **Bundle Optimization**: Tree-shaking and code splitting
 - **Loading States**: Skeleton loaders prevent layout shift
 
-## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-Built with ❤️ using Next.js 15, Framer Motion, Lenis, and modern web technologies
+- **Live Link** : https://my-web-app-jsx.vercel.app/
