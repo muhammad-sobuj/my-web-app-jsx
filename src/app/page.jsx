@@ -14,12 +14,9 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
   ArrowRight,
-  Star,
   Coffee,
   Leaf,
   Award,
-  Users,
-  Heart,
   ShoppingCart,
 } from "lucide-react";
 import { FadeIn } from "@/components/animated/fade-in";
@@ -115,7 +112,7 @@ export default function HomePage() {
 
                   <div className="space-y-4">
                     <motion.h1
-                      className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
+                      className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-amber-800"
                       initial={{ opacity: 0, y: 30 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 1, ease: "easeOut" }}
@@ -440,10 +437,10 @@ export default function HomePage() {
         </ParallaxSection>
 
         {/* Brewing Equipment Section */}
-        <section className="py-24 bg-gray-50">
+        <section className="py-24 ">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn className="text-center mb-16">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-gray-500 mb-4">
                 Brewing Equipment
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
@@ -503,7 +500,7 @@ export default function HomePage() {
         {/* Perfect Coffee Roast Section */}
         <ParallaxSection speed={0.2}>
           <section className="py-24 bg-white">
-            <div className="container container mx-auto px-4 md:px-6">
+            <div className=" container mx-auto px-4 md:px-6">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <FadeIn>
                   <div className="relative">
